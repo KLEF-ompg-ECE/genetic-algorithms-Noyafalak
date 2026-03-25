@@ -242,11 +242,15 @@ if __name__ == "__main__":
 
     # --- Copy and edit below this line ---
 
-chr4, val4, vl4 = run_ga(
-    population_size=20, generations=50,
-    crossover_rate=0.8, mutation_rate=0.30,
-    tournament_size=3, seed=42
-)
-print_solution(chr4)
-print(f"  Final best value: {val4}")
-save_plot(vl4, "plots/experiment_2c.png", "mutation_rate=0.30")
+# --- Copy and edit below this line ---
+
+# chr2, val2, vl2 = run_ga(
+#     population_size=20, generations=50,
+#     crossover_rate=0.8, mutation_rate=0.01,
+#     tournament_size=3, seed=42
+# )
+# print_solution(chr2)
+# print(f"  Final best value: {val2}")
+# save_plot(vl2, "plots/experiment_2a.png", "mutation_rate=0.01")
+
+
